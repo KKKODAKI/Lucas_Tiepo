@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,24 +7,25 @@
     <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
-    <header >
+    <header>
         <nav>
             <ul>
-                <li><a href="frontPage.html">Eventos</a></li>
+                <li><a href="#">Eventos</a></li>
+                </li><button id="vermelho">Modo Vermelho</button></li>
             </ul>
         </nav>
     </header>
 
     <section id="home">
         <h1>Melhor site de apostas para lutas de anões</h1>
-                <div id="featured-events">
-                <h2 >Lutas Marcadas </h2>
+        <h2 >Lutas Marcadas </h2>
+            <div id="featured-events">
             <div class="event">
                 <img width 200px src="./imagens/luta1.jpg" alt="Event 2">
                 <h3>Pablo Soquinho Vs Junin Luta Livre</h3>
                 <p>Data: 19 de <b>outubro</b>, 2023</p>
                 <p>Odd Pablo: 1.5 x Odd Junin: 2.5</p>
-                <button>APOSTAR</button>
+                <button class="aposta1">APOSTAR</button>
             </div>
             
             <div class="event">
@@ -32,12 +33,13 @@
                 <h3>Pedrinho Chute Baixo Vs Rogerio Boxiador</h3>
                 <p>Data: 20 de <b>outubro</b>, 2023</p>
                 <p>Odd Pedrinho: 6 x Odd Rogerio: 1.2</p>
-                <button>APOSTAR</button>
+                <button class="aposta2">APOSTAR</button>
             </div>
         </div>
-    </section >
+    </section>
     <footer>
         <p>&copy; Lucassino</p>
     </footer>
 </body>
+<script src="./script.js"></script>
 </html>
